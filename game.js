@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
     if (gameOver) {
         if (confirm('You lost. Press ok ro restart.')) {
-            window.location = '/'
+            window.location = '/game-2d_snake-js/'
         }
         return 
     }
